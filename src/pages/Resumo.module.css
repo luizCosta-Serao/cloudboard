@@ -1,0 +1,29 @@
+.dados {
+  color: var(--color-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap-s);
+  margin-bottom: var(--gap);
+}
+
+.dadosItem {
+  padding: var(--gap);
+  border-radius: var(--gap);
+  flex: 1;
+  background-color: var(--color-5);
+}
+
+.dadosItem h2 {
+  font-size: 1.6rem;
+  margin-bottom: var(--gap-s);
+}
+
+.dadosItem span {
+  font-size: 1.2rem;
+}
+
+.grafico {
+  background-color: var(--color-5);
+  padding: var(--gap);
+  border-radius: var(--gap);
+}

@@ -1,0 +1,14 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  background-color: var(--color-5);
+  padding: var(--gap);
+  border-radius: var(--gap);
+}
+
+.form > * {
+  flex: 1;
+}

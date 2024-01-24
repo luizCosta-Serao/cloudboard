@@ -1,0 +1,52 @@
+.sidenav {
+  background-color: var(--color-3);
+  padding: var(--gap);
+  border-radius: var(--gap);
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: var(--gap);
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-s);
+}
+
+.menu li span {
+  width: 2rem;
+  height: 2rem;
+  background-color: var(--color-5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--gap);
+  transition: .5s;
+}
+
+.menu li a {
+  flex: 1;
+  font-size: 1.125rem;
+  text-decoration: none;
+  color: var(--color-1);
+  margin: .25rem 0;
+  padding: var(--gap-s) 0;
+  transition: .4s;
+}
+
+.menu li:hover span {
+  background-color: var(--color-4);
+}
+
+@media (max-width: 700px) {
+  .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menu li a {
+    font-size: 1rem;
+  }
+}

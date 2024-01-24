@@ -1,0 +1,21 @@
+.meses {
+  display: flex;
+  gap: var(--gap);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.meses > * {
+  flex: 1;
+}
+
+@media (max-width: 820px) {
+  .meses {
+    flex-direction: column;
+  }
+
+  .meses > * {
+    width: 100%;
+  }
+}

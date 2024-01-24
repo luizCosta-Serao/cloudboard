@@ -1,0 +1,26 @@
+.data {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  display: block;
+  margin-bottom: var(--gap-s);
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--color-3);
+  padding: var(--gap-s) .75rem;
+  background-color: var(--color-4);
+  border-radius: var(--gap);
+}
+
+.input {
+  cursor: pointer;
+  border: none;
+  font-family: monospace;
+  font-size: 1rem;
+  color: var(--color-3);
+  padding: var(--gap-s) .75rem;
+  background-color: var(--color-4);
+  border-radius: var(--gap);
+}

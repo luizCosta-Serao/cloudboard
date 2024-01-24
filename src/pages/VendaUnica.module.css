@@ -1,0 +1,21 @@
+.vendaUnica div {
+  color: var(--color-3);
+  font-size: 1.3rem;
+  background-color: var(--color-5);
+  margin-bottom: var(--gap-s);
+  padding: var(--gap);
+  border-radius: var(--gap);
+  display: flex;
+  gap: var(--gap-s);
+  align-items: center;
+}
+
+.vendaUnica div > span {
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .vendaUnica div {
+    font-size: 1.1rem;
+  }
+}

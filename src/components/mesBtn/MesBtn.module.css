@@ -1,0 +1,10 @@
+.button {
+  padding: var(--gap) var(--gap-s);
+  background-color: var(--color-3);
+  border: none;
+  border-radius: var(--gap);
+  color: var(--color-2);
+  font-weight: 600;
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
