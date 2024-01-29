@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+<h1>Dashboard Financeiro</h1>
+O CloudBoard é um dashboard financeiro que oferece uma visão abrangente de vendas, processando e recebidos retirados de uma API. Acesse dados detalhados de cada transação e gerencie através deste dashboard intuitivo.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1>Funcionalidades</h1>
+<ol>
+  <li>Visualização de gráficos e estatísticas financeiras em tempo real.</li>
+  <li>Visualização detalhada de cada transação.</li>
+  <li>Categorização de vendas, processando e recebidos.</li>
+  <li>Relatórios personalizados selecionando as datas de início e final para puxar informações em um intervalo de tempo.</li>
+</ol>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h1>Tecnologias Utilizadas</h1>
+<ul>
+  <li>HTML: Linguagem de marcação utilizada para estruturar o conteúdo do site.</li>
+  <li>CSS: Linguagem de estilização utilizada para definir a aparência visual do site.</li>
+  <li>JavaScript: Linguagem de programação utilizada para adicionar interatividade e funcionalidades ao site.</li>
+  <li>React: uma biblioteca JavaScript para construir interfaces de usuário.</li>
+  <li>TypeScript: uma linguagem de programação que adiciona tipagem estática ao JavaScript.</li>
+</ul>
 
-## Expanding the ESLint configuration
+<h1>Como Executar o Projeto</h1>
+<ul>
+  <li>Clone este repositório em sua máquina local</li>
+  <li>Instale as dependências do projeto utilizando o comando `npm install`</li>
+  <li>Acesse o site em seu navegador através do endereço `http://localhost:3000`</li>
+</ul>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<h1>Contribuição</h1>
+Contribuições são bem-vindas! Se você encontrar algum problema ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
